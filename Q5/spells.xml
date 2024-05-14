@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spells>
+    <!-- This would be added to data/spells/spells.xml in TFS -->
+    <!-- This assumes the lua file is located at data/spells/scripts/custom/Q5.lua -->
+    <instant group="attack" spellid="999" name="Q5" words="frigo" level="1" mana="1" premium="0" selftarget="1" cooldown="0" groupcooldown="0" needlearn="0" script="custom/Q5.lua"/>
+</spells>
