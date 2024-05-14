@@ -1,0 +1,9 @@
+Module
+  name: game_Q7
+  description: Play a jumping game
+  author: jwaddell
+  website: https://github.com/edubart/otclient
+  sandboxed: true
+  scripts: [ Q7 ]
+  @onLoad: init()
+  @onUnload: terminate()

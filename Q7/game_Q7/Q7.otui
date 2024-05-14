@@ -1,0 +1,11 @@
+MainWindow
+  id: Q7
+  !text: tr('Q7')
+  size: 200 200
+
+  Button
+    id: jumpButton
+    width: 50
+    !text: 'Jump!'
+    margin-right: 1
+    @onClick: modules.game_Q7.resetButton()
